@@ -14,6 +14,8 @@ Hence, this template.
 
 ## Foundry Instructions
 
+Write forge tests in [test](./test/).
+
 ```shell
 forge build
 forge test
@@ -21,7 +23,7 @@ forge test
 
 ## Hardhat Instructions
 
-Try running some of the following tasks:
+Write hardhat tests in [hardhat_tests](./hardhat_tests/).
 
 ```shell
 npx hardhat accounts
