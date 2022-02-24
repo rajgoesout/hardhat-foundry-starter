@@ -1,0 +1,9 @@
+ds-test/=lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+weird-erc20/=lib/solmate/lib/weird-erc20/src/
+solmate/=lib/solmate/src/
+solmate-utils/=lib/solmate/src/utils/
+openzeppelin/=lib/openzeppelin-contracts/
+@openzeppelin/=node_modules/@openzeppelin/
+hardhat/=node_modules/hardhat/
+@rari-capital/=node_modules/@rari-capital/
