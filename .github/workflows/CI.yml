@@ -14,12 +14,16 @@ jobs:
         with:
           node-version: "16.14.0"
 
-      - run: npm install
+      - name: Install npm dependencies
+        run: npm install
 
       - name: Install Foundry
         uses: onbjerg/foundry-toolchain@v1
         with:
           version: nightly
 
-      - name: Run tests
+      - name: Run forge tests
         run: forge test -vvv
+
+      - name: Run Hardhat tests
+        run: npx hardhat test
