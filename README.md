@@ -14,7 +14,7 @@ Hence, this template.
 
 ## Foundry Instructions
 
-Write forge tests in [test](./test/).
+Write forge tests in [test/forge](./test/forge).
 
 ```shell
 forge build
@@ -26,6 +26,7 @@ forge test
 Write hardhat tests in [test/hardhat](./test/hardhat/).
 
 ```shell
+npm install
 npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
@@ -68,7 +69,6 @@ For faster runs of your tests and scripts, consider skipping ts-node's type chec
 
 - https://github.com/EricForgy/foundry-hardhat-sample
 - Hardhat Starter Template
-- Foundry libraries
-  - ds-test
-  - forge-std
-  - solmate
+- [ds-test](https://github.com/dapphub/ds-test)
+- [forge-std](https://github.com/brockelmore/forge-std)
+- [solmate](https://github.com/Rari-Capital/solmate)
