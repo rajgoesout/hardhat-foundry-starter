@@ -7,3 +7,4 @@ openzeppelin/=lib/openzeppelin-contracts/
 @openzeppelin/=node_modules/@openzeppelin/
 hardhat/=node_modules/hardhat/
 @rari-capital/=node_modules/@rari-capital/
+contracts/=src/contracts/

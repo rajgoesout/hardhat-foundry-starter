@@ -12,9 +12,16 @@ Foundry has some awesome testing capabilities, thanks to [cheatcodes](https://on
 
 Hence, this template.
 
+## Getting Started
+
+```shell
+npm install
+forge install
+```
+
 ## Foundry Instructions
 
-Write forge tests in [test/forge](./test/forge).
+Write forge tests in [src/test](./src/test).
 
 ```shell
 forge build
@@ -23,10 +30,9 @@ forge test
 
 ## Hardhat Instructions
 
-Write hardhat tests in [test/hardhat](./test/hardhat/).
+Write hardhat tests in [test](./test/).
 
 ```shell
-npm install
 npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
