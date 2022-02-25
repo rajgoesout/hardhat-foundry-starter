@@ -1,6 +1,6 @@
 [default]
 src = 'contracts'                                             # the source directory
-test = 'test'                                                 # the test directory
+test = 'test/forge'                                           # the test directory
 out = 'artifacts/contracts'                                   # the output directory (for artifacts)
 libs = []                                                     # a list of library directories
 remappings = []                                               # a list of remappings

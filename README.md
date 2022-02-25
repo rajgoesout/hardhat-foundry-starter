@@ -23,7 +23,7 @@ forge test
 
 ## Hardhat Instructions
 
-Write hardhat tests in [hardhat_tests](./hardhat_tests/).
+Write hardhat tests in [test/hardhat](./test/hardhat/).
 
 ```shell
 npx hardhat accounts

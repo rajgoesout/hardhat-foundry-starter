@@ -2,7 +2,7 @@
 pragma solidity ^0.8.12;
 
 import "./BaseTest.sol";
-import "../contracts/Greeter.sol";
+import "../../contracts/Greeter.sol";
 
 contract GreeterTest is BaseTest {
     Greeter public greeter;
